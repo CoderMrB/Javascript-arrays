@@ -69,3 +69,29 @@ let music = [
 
 console.log(music[0][2])
 console.log(music[1][1].name)
+
+let gamesArray = []
+let usersAnswer
+
+function top5Games(){
+for (let i=0; i<5; i++){
+usersAnswer = prompt(`What are your top 5 video games?`);
+    //console.log(usersAnswer);
+    gamesArray.push(usersAnswer);
+    }
+    return gamesArray;
+}
+
+console.log(top5Games)
+
+/*function top5videogames(){
+    for (let i=0; i<5; i++){
+usersAnswer = prompt(`What are your top 5 video games?`);
+    console.log(usersAnswer);
+}
+}*/
+
+/*function favouriteVideoGames(){
+    usersAnswer = prompt(`What are your favourite video games?`);
+    console.log(usersAnswer);
+}*/
