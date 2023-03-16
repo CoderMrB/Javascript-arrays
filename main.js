@@ -57,3 +57,15 @@ console.log(englishNumbers.length)
   for(let i=0; i<words.length;i++){
     console.log(words[i] += `t`);
   } 
+
+  /*An array containing arrays.
+  Then, at least one array to contain objects.
+  */
+
+let music = [
+    [`Rock`, `Classical`, `Ska`],
+    [{name:`Elvis`, style:`Rock n Roll`}, {name:`MJ`, style:`Pop`}, {name: `Bob Marley`, style: `Reggae`}],
+]
+
+console.log(music[0][2])
+console.log(music[1][1].name)
