@@ -18,3 +18,22 @@ const friends = [
     {Name: `Max`, Skill: `Paper-mache`},
 ]
 console.log(friends)
+
+let options = [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+  ];
+
+  console.log(options[10])
+  console.log(options[5])
+  console.log(options[11])
