@@ -47,3 +47,7 @@ console.log(englishNumbers.length)
     console.log(englishNumbers[i]);
     i++;
   }
+
+  for (i = 0; i<englishNumbers.length; i++) {
+    console.log(englishNumbers[i]);
+  }
