@@ -55,6 +55,5 @@ console.log(englishNumbers.length)
   let words = ["ben", "ha", "spla", "fa", "ca", "dra"];
 
   for(let i=0; i<words.length;i++){
-    words[i] = words[i] + `t`;
-    console.log(words[i]);
+    console.log(words[i] += `t`);
   } 
