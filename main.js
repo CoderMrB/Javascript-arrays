@@ -37,3 +37,13 @@ let options = [
   console.log(options[10])
   console.log(options[5])
   console.log(options[11])
+
+  let englishNumbers = ["one", "two", "three", "four", "five"];
+
+let i = 0
+console.log(englishNumbers.length)
+
+  while (i<englishNumbers.length){
+    console.log(englishNumbers[i]);
+    i++;
+  }
