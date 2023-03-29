@@ -32,3 +32,9 @@ let options = [
 
 console.log(options[10])
 console.log(options[5])
+
+let englishNumbers = ["one", "two", "three", "four", "five"]
+
+for (i = 0;i<englishNumbers.length;i++){
+  console.log(englishNumbers[i]);
+}
